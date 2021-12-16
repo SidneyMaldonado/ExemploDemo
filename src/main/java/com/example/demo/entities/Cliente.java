@@ -8,6 +8,7 @@ import javax.persistence.*;
 public class Cliente {
 
     // comentado por sidney
+    // comentado por andre
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
