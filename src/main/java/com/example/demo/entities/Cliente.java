@@ -12,6 +12,7 @@ public class Cliente {
     // comentado por henrique
     // comentado por Marcos
     // comentado por Maria
+    // comentado por Juliano
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
