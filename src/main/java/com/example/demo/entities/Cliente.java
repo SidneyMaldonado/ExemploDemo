@@ -7,6 +7,8 @@ import javax.persistence.*;
 @Table(name="pr_cliente")
 public class Cliente {
 
+    // comentado por sidney
+
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="id_cliente")
