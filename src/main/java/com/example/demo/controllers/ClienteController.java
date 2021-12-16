@@ -80,4 +80,16 @@ public class ClienteController
 
     }
 
+    public Mensagem validar(@RequestBody Cliente cliente){
+
+        Mensagem msg = new Mensagem();
+        if (cliente.getNome().length()>10){
+            msg.setMensagem("OK");
+        } else {
+            msg.setMensagem("Nome de cliente invalido");
+        }
+        return msg;
+
+    }
+
 }
