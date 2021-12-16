@@ -80,4 +80,9 @@ public class ClienteController
 
     }
 
+    public Mensagem buscaNome() {
+        Mensagem msg = new Mensagem();
+        msg.setMensagem("OK2");
+        return msg;
+    }
 }
